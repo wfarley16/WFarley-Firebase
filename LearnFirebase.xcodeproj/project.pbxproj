@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		984795941EAE88300054E1C1 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984795931EAE88300054E1C1 /* ListItem.swift */; };
 		985864391EAE5E9C002BA143 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985864381EAE5E9C002BA143 /* SignInVC.swift */; };
 		98A4CB4A1EAE5BDF008AC7B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98A4CB491EAE5BDF008AC7B0 /* GoogleService-Info.plist */; };
 		98C548B61EAE4E23009CAEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C548B51EAE4E23009CAEAA /* AppDelegate.swift */; };
@@ -22,6 +23,7 @@
 		1BF9CFF7301DBA1E05E0C0A3 /* Pods_LearnFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		278F5A5ED6F9E2EB9937789C /* Pods-LearnFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnFirebase/Pods-LearnFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		80A963D06073447E52A09555 /* Pods-LearnFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnFirebase/Pods-LearnFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		984795931EAE88300054E1C1 /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		985864381EAE5E9C002BA143 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		98A4CB491EAE5BDF008AC7B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		98C548B21EAE4E23009CAEAA /* LearnFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				98C548B51EAE4E23009CAEAA /* AppDelegate.swift */,
+				984795931EAE88300054E1C1 /* ListItem.swift */,
 				985864381EAE5E9C002BA143 /* SignInVC.swift */,
 				98C548B71EAE4E23009CAEAA /* ListVC.swift */,
 				98C548C71EAE5118009CAEAA /* DetailVC.swift */,
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984795941EAE88300054E1C1 /* ListItem.swift in Sources */,
 				98C548B81EAE4E23009CAEAA /* ListVC.swift in Sources */,
 				98C548B61EAE4E23009CAEAA /* AppDelegate.swift in Sources */,
 				985864391EAE5E9C002BA143 /* SignInVC.swift in Sources */,
